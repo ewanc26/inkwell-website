@@ -1,8 +1,10 @@
 # Inkwell website
 
+> **Archived** — This repository has been consolidated into the [Inkwell monorepo](https://github.com/ewanc26/inkwell). The website source now lives under `website/` in that repo. Please open issues and PRs there instead.
+
 The marketing, legal, and OAuth-metadata site for [Inkwell](https://github.com/ewanc26/inkwell), a native reader and writer for the [Standard.site](https://standard.site) publishing ecosystem on [AT Protocol](https://atproto.com). Lives at [inkwell.ewancroft.uk](https://inkwell.ewancroft.uk).
 
-Inkwell is primarily an iOS app (SwiftUI), with an experimental Android port ([Jetpack Compose](https://github.com/ewanc26/inkwell-android)). Neither ships through the App Store or Play Store — this site hosts the real install sources instead:
+Inkwell is primarily an iOS app (SwiftUI), with an experimental Android port (Kotlin/Compose). Neither ships through the App Store or Play Store — this site hosts the real install sources instead:
 
 - **iOS** — a self-hosted [AltStore](https://altstore.io) source at [`/altstore/source.json`](static/altstore/source.json)
 - **Android** — a self-hosted, signed [F-Droid](https://f-droid.org) repo at [`/fdroid/repo`](static/fdroid/repo)
